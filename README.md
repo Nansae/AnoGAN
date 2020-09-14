@@ -16,12 +16,10 @@ I made the kernel size different from the picture above when i implemented it.
 
 ## Files and Directories
 * config.py : A file that stores various parameters and path settings.
-* model.py : DCGAN's network implementation file consists of a DCGAN class.
-* train.py : A file that loads train data and starts learning.
-* utils.py : Various functions such as visualization and loading data
-* checkpoints : A folder that stores learning results with a ckpt extension.
-* sample_data :  Save sample image to verify the result of creation with DCGAN for every epoch.
-* tensorboard : The trend of loss of generator and discriminator has been saved.
+* model.py : ANOGAN's network implementation file
+* train.py : This file load the data and learning with GAN.
+* train_anogan.py : This file load the GAN model and then learns the detector.
+* utils.py : Various functions such as loading data* 
 
 ## Train Flickr Face HQ Dataset
 1. Download [Flickr Face HQ Dataset](https://github.com/NVlabs/ffhq-dataset)
