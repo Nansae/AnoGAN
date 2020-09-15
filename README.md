@@ -10,7 +10,7 @@ The repository has implemented the **Anomaly Detection with GAN** and has been a
 
 ## Concept
 **Architecture**
-
+![anogan_cocept](https://user-images.githubusercontent.com/11286586/93151029-b0d07400-f735-11ea-89b6-785cb740b4b3.png)
 
 I made the kernel size different from the picture above when i implemented it.
 
